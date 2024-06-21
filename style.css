@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 :root{
-    background-color: rgba(53, 8, 82, 0.877);
-    color: rgb(255, 255, 255);
+    -cor-de-fundo: rgba(53, 8, 82, 0.877);
+    texto: rgb(255, 255, 255);
+}
+
+body{
+    background-color: var(-cor-de-fundo);
+    color: var(texo);
+    font-family: 'Permanent+Marker', sans-serif;
 }
